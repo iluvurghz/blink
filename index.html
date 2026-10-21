@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blink</title>
+    <link rel="icon" href="./favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" href="./icon.png" />
+    <link rel="apple-touch-icon" href="./icon.png" />
+    <meta name="theme-color" content="#0d0c10" />
+    <script type="module" crossorigin src="./assets/index--ZFRO5qR.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CYVrGSHl.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      // Google sign-in from the desktop app lands here in the browser: hand the code back to Blink.
+      if (new URLSearchParams(location.search).get('desktop') === '1') {
+        document.body.style.cssText = 'margin:0;background:#0d0c10;color:#eee9e2;font:600 18px system-ui;display:grid;place-items:center;height:100vh';
+        document.body.innerHTML = '<div style="text-align:center">Возвращаемся в Blink…<br><span style="color:#9a95a1;font-size:14px">Эту вкладку можно закрыть.</span></div>';
+        location.replace('blink://auth' + location.search);
+        window.__blinkHandoff = true;
+      }
+    </script>
+  </body>
+</html>
