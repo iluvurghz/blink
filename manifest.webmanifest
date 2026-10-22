@@ -1,0 +1,16 @@
+{
+  "name": "Blink",
+  "short_name": "Blink",
+  "description": "Музыкальный плеер: чарты, тексты песен, плейлисты",
+  "lang": "ru",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0d0c10",
+  "theme_color": "#0d0c10",
+  "icons": [
+    { "src": "/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
