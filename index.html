@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ru">
   <head>
-    <script>/* The site moved to blinkmusic.cc. Old Blink apps (they have window.blink) keep using this copy until they update. */if(!window.blink){location.replace("https://blinkmusic.cc/"+location.search+location.hash)}</script>
+    <script>/* The site moved to blinkmusic.cc. Old Blink apps (they have window.blink) keep using this copy until they update. */if(!window.blink||window.blink.isWeb){location.replace("https://blinkmusic.cc/"+location.search+location.hash)}</script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blink</title>
@@ -22,6 +22,6 @@
         location.replace('blink://auth' + location.search);
         window.__blinkHandoff = true;
       }
-    </script>
+    </script>
   </body>
 </html>
