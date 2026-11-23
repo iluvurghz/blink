@@ -1,0 +1,37 @@
+name: Publish Blink for Windows
+on:
+  push:
+    branches: ['windows-release/**']
+permissions:
+  contents: write
+concurrency:
+  group: blink-windows-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Assemble and verify release assets
+        working-directory: payload
+        run: |
+          set -euo pipefail
+          version="${GITHUB_REF_NAME#windows-release/}"
+          [[ "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]
+          grep -Fx "version: $version" latest.yml
+          grep -Fx 'path: Blink-Setup.exe' latest.yml
+          grep -Fx '  - url: Blink-Setup.exe' latest.yml
+          cat part-* > Blink-Setup.exe
+          test "$(openssl dgst -sha512 -binary Blink-Setup.exe | base64 -w0)" = "$(sed -n 's/^sha512: //p' latest.yml)"
+          test -s Blink-Setup.exe.blockmap
+      - name: Publish verified files together
+        working-directory: payload
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          tag="v${GITHUB_REF_NAME#windows-release/}"
+          gh release create "$tag" --target "$GITHUB_SHA" --draft --title "Blink $tag" --notes "Blink for Windows" Blink-Setup.exe Blink-Setup.exe.blockmap latest.yml
+          gh release edit "$tag" --draft=false
