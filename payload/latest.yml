@@ -1,0 +1,8 @@
+version: 1.9.101
+files:
+  - url: Blink-Setup.exe
+    sha512: CpS2KhuSK7qRYbbKCNYEHwmGWkWkKr2gNTqZck5PFXCC1Uo14tpQJsrqrscBEHEYAmqf52uyl1GqxReUJqf2Uw==
+    size: 106154450
+path: Blink-Setup.exe
+sha512: CpS2KhuSK7qRYbbKCNYEHwmGWkWkKr2gNTqZck5PFXCC1Uo14tpQJsrqrscBEHEYAmqf52uyl1GqxReUJqf2Uw==
+releaseDate: '2026-11-24T03:42:17.215Z'
