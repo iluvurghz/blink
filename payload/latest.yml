@@ -1,0 +1,13 @@
+version: 1.9.104
+files:
+  - url: Blink-Setup.exe
+    sha512: 2EZ6umcokDclrsPWyTvozzKEZPIdQS2PU7iiHQLr1BQ5N+4saZYif6SrAF+1fimpMtEXdgcwD7WkAPHCMPF2hA==
+    size: 106155825
+path: Blink-Setup.exe
+sha512: 2EZ6umcokDclrsPWyTvozzKEZPIdQS2PU7iiHQLr1BQ5N+4saZYif6SrAF+1fimpMtEXdgcwD7WkAPHCMPF2hA==
+releaseNotes: |
+  Каналы обновлений: beta, sub и all.
+  Метки доступа beta и sub.
+  Привязка промокода к профилю.
+  Статус доступа в разделе «О программе».
+releaseDate: '2026-11-27T10:55:58.868Z'
