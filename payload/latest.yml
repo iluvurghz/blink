@@ -1,0 +1,10 @@
+version: 1.9.107
+files:
+  - url: Blink-Setup.exe
+    sha512: mxrLZ9B1nNK3CFLJ0DJxeNixKX5YNl6vQsNKgwOyuX8v+I0UPDk8j3rLo0dheHmv96RKArLTgMuCpS6sj5B1Sg==
+    size: 106156875
+path: Blink-Setup.exe
+sha512: mxrLZ9B1nNK3CFLJ0DJxeNixKX5YNl6vQsNKgwOyuX8v+I0UPDk8j3rLo0dheHmv96RKArLTgMuCpS6sj5B1Sg==
+releaseNotes: |
+  Сбор общей статистики лайков и дослушиваний треков из «Вспышки».
+releaseDate: '2026-11-27T12:05:55.354Z'
