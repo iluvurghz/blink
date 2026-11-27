@@ -1,0 +1,10 @@
+version: 1.9.106
+files:
+  - url: Blink-Setup.exe
+    sha512: YRlfEfpTJFpN3dQYZB47+AC1J9DD5kb74YFe2nCOAbAZpRFKjK1F+khJN3VAcMcQE15aCLRlkidQPY47iBKyUw==
+    size: 106155813
+path: Blink-Setup.exe
+sha512: YRlfEfpTJFpN3dQYZB47+AC1J9DD5kb74YFe2nCOAbAZpRFKjK1F+khJN3VAcMcQE15aCLRlkidQPY47iBKyUw==
+releaseNotes: |
+  Если активны beta и Blink+, показывается только отметка доступа разработчика.
+releaseDate: '2026-11-27T11:22:43.898Z'
