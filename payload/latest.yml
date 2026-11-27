@@ -1,0 +1,11 @@
+version: 1.9.108
+files:
+  - url: Blink-Setup.exe
+    sha512: LoJbPxIRajqIhh0MXEUlu3J/6ClkSw05JwH8I3seej1tWbnssKMJheXYIMj9e+DF1r3fliYOSeDKxDRMygLdjw==
+    size: 106156804
+path: Blink-Setup.exe
+sha512: LoJbPxIRajqIhh0MXEUlu3J/6ClkSw05JwH8I3seej1tWbnssKMJheXYIMj9e+DF1r3fliYOSeDKxDRMygLdjw==
+releaseNotes: |
+  Снятые лайки вычитаются из статистики «Вспышки».
+  В статистику «Вспышки» добавлен процент дизлайков.
+releaseDate: '2026-11-27T12:18:21.869Z'
