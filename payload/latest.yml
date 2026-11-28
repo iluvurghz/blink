@@ -1,0 +1,10 @@
+version: 1.9.113
+files:
+  - url: Blink-Setup.exe
+    sha512: Gm7AOjyObIM67TBQnOSL/gTiY1nwmo3HQvvzwW8PGpFyFQIcbFxC+GWsKcZKv3QjmlUYbew7CGDeVpztlCqomw==
+    size: 106189929
+path: Blink-Setup.exe
+sha512: Gm7AOjyObIM67TBQnOSL/gTiY1nwmo3HQvvzwW8PGpFyFQIcbFxC+GWsKcZKv3QjmlUYbew7CGDeVpztlCqomw==
+releaseNotes: |
+  Промобаннер OBS теперь показывает логотип, промокод и бонус в трёх анимированных сценах.
+releaseDate: '2026-11-28T14:05:36.274Z'
