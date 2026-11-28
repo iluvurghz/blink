@@ -1,0 +1,11 @@
+version: 1.9.114
+files:
+  - url: Blink-Setup.exe
+    sha512: 7u0bzWO4TVd3fPoQLeAup+VbrKi8EZJrTEU8o8tNjFTD8wQgWbXisz7HLecrwjcnukpym0IzmVHGniM+A90jOA==
+    size: 106189795
+path: Blink-Setup.exe
+sha512: 7u0bzWO4TVd3fPoQLeAup+VbrKi8EZJrTEU8o8tNjFTD8wQgWbXisz7HLecrwjcnukpym0IzmVHGniM+A90jOA==
+releaseNotes: |
+  Промобаннер OBS стал компактнее: 288×82.
+  Убраны рамки и фон, при смене сцен появляется оранжевая полоска.
+releaseDate: '2026-11-28T14:15:55.566Z'
