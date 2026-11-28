@@ -1,0 +1,12 @@
+version: 1.9.115
+files:
+  - url: Blink-Setup.exe
+    sha512: xuPkCIXMNfhec1+mWvGCU6OrumIOe6GZh/NEE/D0BpgDaVpcMRGk+opCLAQwHnfaFGjmnyJOM0dWEcgOoapErA==
+    size: 106190807
+path: Blink-Setup.exe
+sha512: xuPkCIXMNfhec1+mWvGCU6OrumIOe6GZh/NEE/D0BpgDaVpcMRGk+opCLAQwHnfaFGjmnyJOM0dWEcgOoapErA==
+releaseNotes: |
+  Добавлена RGB-панель для акцентов промобаннера OBS.
+  Промобаннер можно скачать в MP4.
+  Исправлена прозрачность GIF, промокод сразу виден в предпросмотре.
+releaseDate: '2026-11-28T15:28:02.940Z'
