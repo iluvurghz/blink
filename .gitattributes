@@ -1,0 +1,3 @@
+payload/part-* -text
+payload/*.blockmap -text
+payload/latest.yml text eol=lf

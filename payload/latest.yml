@@ -1,0 +1,12 @@
+version: 1.9.112
+files:
+  - url: Blink-Setup.exe
+    sha512: xp1DgjpnlR58//IapbUKu1/19W/rvF9pkkAtIY/MO13TyZlpvZqe7FQxRyf41e82rqcxml0wTbptoR8P3BvkNw==
+    size: 106188029
+path: Blink-Setup.exe
+sha512: xp1DgjpnlR58//IapbUKu1/19W/rvF9pkkAtIY/MO13TyZlpvZqe7FQxRyf41e82rqcxml0wTbptoR8P3BvkNw==
+releaseNotes: |
+  «Вспышка» сохраняет общую подборку в совместном прослушивании.
+  Треки, наиболее близкие к вашему вкусу, звучат раньше.
+  Запас треков учитывает выбранный режим и настроение.
+releaseDate: '2026-11-28T12:30:58.557Z'
