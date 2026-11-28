@@ -1,0 +1,13 @@
+version: 1.9.111
+files:
+  - url: Blink-Setup.exe
+    sha512: lt+Vw+SNTZ1AIqr26wzEwDabatiNF/DdITMxTVgamldzqu6m9MnDMngAkToPwWOD8W/po2JL8n00tNZZQU6o2A==
+    size: 106186820
+path: Blink-Setup.exe
+sha512: lt+Vw+SNTZ1AIqr26wzEwDabatiNF/DdITMxTVgamldzqu6m9MnDMngAkToPwWOD8W/po2JL8n00tNZZQU6o2A==
+releaseNotes: |
+  Добавлена вкладка «Партнёрам» с графиком активаций промокода.
+  Добавлены авторские промокоды с одной активацией на аккаунт.
+  Промобаннер OBS получил плавный перелив Blink+ и экспорт в GIF.
+  Обновлены выбор вида панели «Трек в OBS» и карточка сотрудника.
+releaseDate: '2026-11-28T11:39:54.377Z'
